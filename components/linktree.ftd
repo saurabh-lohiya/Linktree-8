@@ -27,16 +27,16 @@ avatar: $assets.files.assets.avatar.png
 
 Lorem ipsum dolor set amet Lorem ipsum dolor set ametLorem ipsum dolor
 
-\-- button: Dribble
+\-- lt.button: Dribble
 cta-link: /index.html
 
-\-- button: Behnace
+\-- lt.button: Behnace
 cta-link: /index.html
 
-\-- button: Webflow
+\-- lt.button: Webflow
 cta-link: /index.html
 
-\-- button: LinkedIn
+\-- lt.button: LinkedIn
 cta-link: /index.html
 
 \-- end: linktree
