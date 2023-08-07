@@ -1,0 +1,91 @@
+-- import: saurabh-lohiya.github.io/linktree-8 as lt
+
+-- $site-doc.copyright-info: Copyright © 2023
+
+-- site-doc.doc-home: linktree
+github-url: https://github.com/saurabh-lohiya/linktree-8
+site-title: linktree
+
+-- site-doc.component-doc: `lt.linktree`
+package-link: https://saurabh-lohiya.github.io/linktree-8
+github-link: https://github.com/saurabh-lohiya/linktree-8
+package-name: fifthtry.github.io/gangaimaging.com
+info: `-- lt.linktree` can be used as a banner on gangaimaging.com pages.
+
+`-- lt.linktree` contains, a image to the left side and information to the
+right side of it. If you want to use it on you gangaimaging.com pages then use
+below given example code and add it inside a `.ftd` file.
+
+-- site-doc.header: Invocation:
+
+-- cb.code:
+lang: ftd
+max-height.fixed.px: 350
+
+\-- lt.linktree:  MUSKAAN VERMA
+avatar: $assets.files.assets.avatar.png
+
+Lorem ipsum dolor set amet Lorem ipsum dolor set ametLorem ipsum dolor
+
+\-- lt.button: Dribble
+cta-link: /index.html
+
+\-- lt.button: Behnace
+cta-link: /index.html
+
+\-- lt.button: Webflow
+cta-link: /index.html
+
+\-- lt.button: LinkedIn
+cta-link: /index.html
+
+\-- end: linktree
+
+-- site-doc.header: Demo:
+
+-- site-doc.output:
+
+-- lt.linktree: MUSKAAN VERMA
+avatar: $assets.files.assets.avatar.png
+
+Lorem ipsum dolor set amet Lorem ipsum dolor set ametLorem ipsum dolor
+
+-- lt.button: Dribble
+cta-link: /index.html
+
+-- lt.button: Behnace
+cta-link: /index.html
+
+-- lt.button: Webflow
+cta-link: /index.html
+
+-- lt.button: LinkedIn
+cta-link: /index.html
+
+-- end: lt.linktree
+
+-- end: site-doc.output
+
+-- site-doc.header: Properties:
+
+Below are details of all properties of `-- lt.linktree` component.
+
+-- site-doc.component-property: `title`
+type: Caption (`required`)
+
+This is a default property of the `lt.linktree` component. It’s used to add a
+title to `lt.linktree` component.
+
+-- site-doc.component-property: `body`
+type: String (`optional`)
+
+This is a default property of the `lt.linktree` component. It’s used to add a
+info about the profile.
+
+-- site-doc.component-property: `avatar`
+type: ftd.image-src (`optional`)
+
+This is a default property of the `lt.linktree` component. Using `avatar`
+attribute profile image can be added.
+
+-- end: site-doc.doc-home
